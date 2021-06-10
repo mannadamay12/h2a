@@ -390,10 +390,10 @@ const animationTimeline = () => {
   // tl.timeScale(2);
 
   // Restart Animation on click
-  const replyBtn = document.getElementById("clickme");
-  replyBtn.addEventListener("click", () => {
-    tl.restart();
-  });
+  // const replyBtn = document.getElementById("clickme");
+  // replyBtn.addEventListener("click", () => {
+  //   tl.restart();
+  // });
   var today = new Date();
   var tommorow = new Date("Feburary 21, 2021 21:15");
   const bday_code = document.getElementById("bday_code");
